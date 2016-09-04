@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: ArpanSampleJCloudant
+  host: ArpanSampleJCloudant
+  disk_quota: 1024M
+  services:
+  - ArpanSampleJCloudant-cloudantNoSQLDB
