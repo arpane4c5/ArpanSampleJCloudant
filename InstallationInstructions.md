@@ -16,10 +16,10 @@ Need to have an IBM account. Register [here](https://www.ibm.com/account/us-en/s
 
 ## For Eclipse 
 Goto Help -> Eclipse Marketplace --> Search for and install the following plugins
-1. IBM Eclipse Tools for Bluemix for `<EclipseVersionName>`
-2. Enide.p2f - Eclipse Node.js IDE
-3. Eclipse Tools for Cloudfoundry
-4. IBM WebSphere Application Server Development Tools (WDT) Installer  
+1. IBM Eclipse Tools for Bluemix for `<EclipseVersionName>`  
+2. Enide.p2f - Eclipse Node.js IDE  
+3. Eclipse Tools for Cloudfoundry  
+4. IBM WebSphere Application Server Development Tools (WDT) Installer    
 Refer [this](https://console.ng.bluemix.net/docs/manageapps/eclipsetools/eclipsetools.html#eclipsetools)  
 
 
