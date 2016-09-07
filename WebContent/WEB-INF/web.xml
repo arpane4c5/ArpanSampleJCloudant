@@ -7,7 +7,7 @@
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet>
-  	<servlet-name>LoginServlet</servlet-name>
+  	<servlet-name>MyLoginServlet</servlet-name>
   	<servlet-class>servlets.LoginServlet</servlet-class>
   </servlet>
   <servlet-mapping>
@@ -15,8 +15,8 @@
     <url-pattern>/api/*</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-  	<servlet-name>LoginServlet</servlet-name>
-  	<url-pattern>/LoginServlet</url-pattern>
+  	<servlet-name>MyLoginServlet</servlet-name>
+  	<url-pattern>/MyLoginServlet</url-pattern>
   </servlet-mapping>
   
   

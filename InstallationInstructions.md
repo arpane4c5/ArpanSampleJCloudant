@@ -3,7 +3,7 @@
 1. [JDK >= **1.7**](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 
 2. [NodeJS](https://nodejs.org/en/) for your OS 
 3. Download Eclipse for EE developers and extract.
-4. [CloudFoundry CLI](https://github.com/cloudfoundry/cli/releases). 
+4. [Cloud Foundry CLI](https://github.com/cloudfoundry/cli/releases). 
    Refer [this](http://docs.cloudfoundry.org/cf-cli/)
 5. Web Browser (Chrome/Firefox)
 
@@ -105,6 +105,14 @@ Reading a doc
 https://[username].cloudant.com/crud/welcome		--here crud is the db name while "welcome" is the docID
 
 Insert a doc in DB
+
+
+Generate and save the key to the Liberty Keystore
+
+1. Download openssl tool for windows from [here](https://code.google.com/archive/p/openssl-for-windows/downloads)  
+2. Generate the key by   
+`<path to openssl.exe> s_client -connect xxxxx-bluemix.cloudant.com:443 -showcerts > cloudant.cert`
+
 
 
 ________________________________________________________________________
