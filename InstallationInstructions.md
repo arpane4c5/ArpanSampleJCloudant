@@ -12,7 +12,7 @@ Refer [this](https://www.youtube.com/embed/4RBDyyOREVU) for Installation (in MAC
 
 Need to have an IBM account. Register [here](https://www.ibm.com/account/us-en/signup/register.html) 
 
-**IMPORTANT: USE YOUR COLLEGE EMAIL ID TO REGISTER.** You may select the UK-GB region out of the 3 regions of sydney, US and UK.
+**IMPORTANT: USE YOUR COLLEGE EMAIL ID TO REGISTER.** .
 
 ## For Eclipse 
 Goto Help -> Eclipse Marketplace --> Search for and install the following plugins
