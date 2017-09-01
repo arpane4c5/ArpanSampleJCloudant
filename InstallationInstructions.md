@@ -2,19 +2,18 @@
 
 1. [JDK >= **1.7**](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 
 2. [NodeJS](https://nodejs.org/en/) for your OS 
-3. Download Eclipse for EE developers and extract.
-4. [Cloud Foundry CLI](https://github.com/cloudfoundry/cli/releases). 
+3. [Cloud Foundry CLI](https://github.com/cloudfoundry/cli/releases). 
    Refer [this](http://docs.cloudfoundry.org/cf-cli/)
-5. Web Browser (Chrome/Firefox)
+4. Web Browser (Chrome/Firefox)
 
 Refer [this](https://www.youtube.com/embed/PnPij88rIF0) for Installation (in Windows)  
 Refer [this](https://www.youtube.com/embed/4RBDyyOREVU) for Installation (in MAC)
 
 Need to have an IBM account. Register [here](https://www.ibm.com/account/us-en/signup/register.html) 
 
-**IMPORTANT: USE YOUR COLLEGE EMAIL ID TO REGISTER.** .
+**IMPORTANT: USE YOUR COLLEGE EMAIL ID TO REGISTER. Register using the link sent at the google classroom. It will give you 6 months of free trial.** .
 
-## For Eclipse 
+## For Eclipse (Do NOT use Eclipse, since there are issues with installation of plugins and connecting it with Bluemix. Skip the following steps.)
 Goto Help -> Eclipse Marketplace --> Search for and install the following plugins
 1. IBM Eclipse Tools for Bluemix for `<EclipseVersionName>`  
 2. Enide.p2f - Eclipse Node.js IDE  
@@ -23,18 +22,18 @@ Goto Help -> Eclipse Marketplace --> Search for and install the following plugin
 Refer [this](https://console.ng.bluemix.net/docs/manageapps/eclipsetools/eclipsetools.html#eclipsetools)  
 
 
-## Local Web server for JSP developers:
+## Local Web server for JSP developers (Skip this as well):
 Goto [link](https://developer.ibm.com/wasdev/downloads/) and either download WebSphere Liberty inside Eclipse or download the runtime externally and integrate in Eclipse as shown [here](https://developer.ibm.com/wasdev/docs/developing-applications-wdt-liberty-profile/)  
 
 
 For an more detailed description, it is recommended that you follow the Bluemix Essentials course, which has an additional advantage of obtaining a certification badge. This course will show you how you can start working on a NodeJS application along with Cloudant-NoSQL-DB. 
 
-**Note**: WebSphere Liberty Tools plugin can be used to set up remote servers with the Bluemix Server instance, but there was a problem in plugin download for Eclipse Neon. For older versions of Eclipse, it might work but I haven't tried.  
+**Note**: WebSphere Liberty Tools plugin can be used to set up remote servers with the Bluemix Server instance, but there was a problem in plugin download for Eclipse Neon.  
 
 
 **Steps:**  
 
-Add a Bluemix Server to Eclipse  
+Add a Bluemix Server to Eclipse (Skip these steps as well) 
 Goto Window -> Preferences -> Server -> Runtime Env -> Add.. -> IBM -> Bluemix Runtime -> Enter Credentials -> Choose eu-gb URL -> Validate -> Finish
 
 Add a Local WebSphere Liberty (or for any other 3rd party webserver like Tomcat, JBoss etc.)  
@@ -52,7 +51,7 @@ _________________________________________________________________
 4. When the Git repo is created, Goto *Edit Code* and Copy the GIT URL of the repo.
 5. Goto Eclipse, *File* -> *Import* -> *Git* -> *Clone URI* -> Paste the URL in the URI textbox -> Enter User (alias) and Password (Bluemix) -> *Next* -> *Next* -> Choose the local directory to save the project (In an Eclipse Workspace) -> *Next* -> *Next* -> *Finish*
 
-##### For Maven integration
+##### For Maven integration (Try using without Eclipse. These steps are specific to Eclipse)
 For Eclipse Neon Users --> install new version of **m2e-wtp** as below:
 Goto Help -> *Install New Software..* -> *Add..* -> *Name="m2e-wtp for Eclipse Neon"* and *Location="http://download.eclipse.org/m2e-wtp/milestones/neon/1.3/"* -> Tick all the three checkboxes  
 
